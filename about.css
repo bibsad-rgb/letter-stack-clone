@@ -9,6 +9,7 @@ body {
     background: linear-gradient(135deg, #d4a574 0%, #c69063 100%);
     min-height: 100vh;
     color: #3e2723;
+    height: 1000px;
 }
 
 .navbar {
@@ -63,9 +64,10 @@ a.active {
     gap: 100px;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #d7ccc8;
     padding: 30px;
     border-radius: 20px;
+    border: 3px solid black;
 }
 .title {
     position: relative;
@@ -76,15 +78,34 @@ a.active {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 50px;
-    background-color: grey;
+    background-color: white;
     border: 4px solid black;
     height: 700px;
     position: relative;
     top: -100;
     padding: 10px;
     border-radius: 20px;
+    align-items: center;
 }
 p {
     font-size: 1rem;
     margin: 0.5rem 0;
 }
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+

@@ -2,19 +2,33 @@ function startGame() {
     document.getElementById("mysteryword").style.display = "flex"
     document.getElementById("startBtn").style.display = "none"
     // to test
-    wordChooser()
+   
 }
-let words = [
-    {'AT':'BEATS'},
-    {'RAN':'ORANGE'},
-    {'ACE':'RACECAR'}
-]
 
-function wordChooser() {
-    let randomIndex = Math.round(Math.random() * words.length)
-    let choose = words[randomIndex]
-    console.log(choose)
+
+possibleWords = [ 'BEATS', 'ORANGE', 'RACECAR', 'CARROT', 'PURPLE' ]
+
+let randomIndex = Math.round(Math.random() * possibleWords.length)
+let randomWord = possibleWords[randomIndex]
+console.log(randomWord)
+
+function showRandomWord() {
+    
 }
+
+// function wordChooser() {
+//     let randomIndex = Math.round(Math.random() * possibleWords.length)
+//     let choose = possibleWords[randomIndex]
+//     console.log(choose)
+//     // let key = (possibleWords[randomIndex])[0]
+//     console.log(possibleWords[randomIndex])
+//     console.log(possibleWords[randomIndex])
+
+// }
+
+// function showWordPuzzle() {
+
+// }
 
 // NEXT STEPS
 

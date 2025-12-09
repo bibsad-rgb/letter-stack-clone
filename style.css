@@ -96,3 +96,12 @@ a.active {
     font-weight: 600;
 }
 
+input {
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    position: relative;
+    top: -10;
+    display: none;
+}
+
