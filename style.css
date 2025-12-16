@@ -108,3 +108,9 @@ a.active {
     font-size: 24px;
     margin: 0 5px;
 }
+
+#startBtn {
+    width: 100px;
+    height: 100px;
+    color: #8d6e63;
+}
