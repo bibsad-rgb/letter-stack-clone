@@ -10,42 +10,27 @@
       <ul class="links">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="howtoplay.html">How to Play</a></li>
-        <li><a href="stats.html">Stats</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
 
-<div class="box">
-    <div class="container">
+    <div class="box">
+      <div class="container">
         <div class="title">
-            <h1>☕ LETTER STACK ☕</h1>
+          <h1>☕ LETTER STACK ☕</h1>
         </div>
         <div class="stats">
-            <p>Letters:</p>
-            <p>Remmaning at beginning:</p>
-            <p>Remmaning at end:</p>
+          <p>Letters:</p>
+          <p>Remaining at beginning:</p>
+          <p>Remaining at end:</p>
         </div>
 
-        <div class="start">
-            <button id="startBtn" onclick="startGame()">Start</button>
-        </div>
+        <!-- This div will hold all inputs and middle letters -->
+        <div id="mysteryword"></div>
 
-        <div id="mysteryword">
-            <!-- Each letter will have its own box -->
-            <input type="text" placeholder="_" id="blank1">
-            <input type="text" placeholder="_"" id="blank2">
-            <input type="text" placeholder="_" id="blank3">
-            <input type="text" placeholder="_" id="blank4">
-            <h1>AT</h1>
-            <input type="text" placeholder="_" id="blank5">
-            <input type="text" placeholder="_" id="blank6">
-            <input type="text" placeholder="_" id="blank7">
-            <input type="text" placeholder="_" id="blank8">
-        </div>
-
-        <!-- TODO: Create a restart button.  -->
+        <button id="startBtn" onclick="startGame()">Start Game</button>
+      </div>
     </div>
-</div>
 
     <script src="server.js"></script>
   </body>
