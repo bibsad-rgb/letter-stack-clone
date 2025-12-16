@@ -115,3 +115,7 @@ a.active {
     color: #8d6e63;
     border-radius: 10px;
 }
+
+#startBtn:hover {
+    background-color: lightgray;
+}
